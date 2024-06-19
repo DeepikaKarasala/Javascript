@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100hv;
+   
+    
+}
+.container{
+    border: 2px solid black;
+    text-align: center;
+    width: 350px;
+    height: 100hv;
+    box-shadow: 5px 5px black;
+    background-color: white;
+    padding: 25px;
+    width: 350px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+.container h1{
+    font-weight: bold;
+    padding: 5px;
+    color: black;
+    margin-top: 8px;
+}
+.container input{
+    text-align: center;
+    padding: 10px;
+    margin:10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 200px;
+}
+.container button{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.container input:hover{
+    border-radius: 12px;
+    width: 210px;
+}
+.container button:hover{
+    background-color: blue;
+    width:150px;
+    border-radius: 30px;
+}
+.res h3{
+    
+    font-size: 20px;
+    font-style:italic;
+    text-align: center;
+}
+.err h3{
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    padding: 5px ;
+}
+.container label{
+    font-style: normal;
+    font-size: 18px;
+    font-weight:bold;
+}
