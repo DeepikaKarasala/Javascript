@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(20, 223, 238);
+    transition: background 3.2s;
+}
+label{
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    width: 70px;
+}
