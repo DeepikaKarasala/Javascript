@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    background-color: rgb(175, 175, 146);
+    height: 100vh;
+    justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+.calci{
+    background: black;
+    border-radius: 25px;
+    padding: 18px;
+
+}
+.calci form input{
+    border:0;
+    padding: 0;
+    outline: 0;
+    height:50px ;
+    width:65px ;
+    border-radius: 28px;
+    background: transparent;
+    color: white;
+    box-shadow: -8px -8px 15px rgb(255,255,255,0.1),5px 5px 15px rgb(0,0,0,0.2);
+    cursor: pointer;
+    font-size: 22px;
+    margin: 12px;
+}
+.calci form input:active{
+    background: rgb(37, 48, 48);
+}
+form .display{
+    display: flex;
+    justify-content:flex-end;
+   margin: 10px 0;
+}
+form .display input{
+    flex:1;
+    text-align: right;
+    height:130px;
+    font-size: 40px;
+}
+form input.sd{
+    color:rgb(245, 60, 14)
+}
+form input.eq{
+    background-color:rgb(245, 60, 14)
+}
